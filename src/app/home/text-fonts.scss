@@ -1,0 +1,73 @@
+@import './scss/general';
+
+
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+
+.title {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $bold-black;
+    font-size: 48px;
+    line-height: 52px;
+    color: $black;
+}
+
+.subtitle {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $light;
+    font-size: 24px;
+    line-height: 28px;
+    color: $black;
+}
+
+.search-text {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 16px;
+    line-height: 20px;
+    color: $grey;
+}
+
+.btn-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $extra-bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: $black;
+}
+
+.menu-list__link {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: $black;
+}
+
+
+
+@media (max-width: 375px) {
+    .title {
+        font-size: 38px;
+    }
+    .subtitle {
+        font-size: 19px;
+    }
+}
