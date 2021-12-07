@@ -23,6 +23,7 @@
                     <div class="form-search">
                         <form action="#">
                             <input class="search search-text" type="text" placeholder="Поиск">
+                            <i class="search-icon"></i>
                         </form>
                     </div>
                     <!-- Form End -->
@@ -59,10 +60,10 @@
             <div class="description">
                 <div class="description__inner">
                     <div class="description-text">
-                        <h1 class="title mb-20">
+                        <h1 class="title title-mb">
                             Крафтовые лакомства для собак
                         </h1>
-                        <p class="subtitle mb-35">
+                        <p class="subtitle subtitle-mb">
                             Всегда свежие лакомства ручной работы с доставкой по России и Миру
                         </p>
                         <button class="btn btn-font">
@@ -77,35 +78,166 @@
                     </div>
                 </div>
             </div>
-
+            <!-- Menu -->
             <div class="menu">
                 <ul class="menu-list">
-                    <li class="menu-list__item">
-                        <img class="mb-20" src="./../../assets/img/menu-icons/01.svg" alt="01">
-                        <a class="menu-list__link" href="#">Наборы</a>
-                    </li>
-                    <li class="menu-list__item">
-                        <img class="mb-20" src="./../../assets/img/menu-icons/02.svg" alt="01">
-                        <a class="menu-list__link" href="#">Лакомства</a>
-                    </li>
-                    <li class="menu-list__item">
-                        <img class="mb-20" src="./../../assets/img/menu-icons/03.svg" alt="01">
-                        <a class="menu-list__link" href="#">Аксессуары</a>
-                    </li>
-                    <li class="menu-list__item">
-                        <img class="mb-20" src="./../../assets/img/menu-icons/04.svg" alt="01">
-                        <a class="menu-list__link" href="#">Игрушки</a>
-                    </li>
-                    <li class="menu-list__item">
-                        <img class="mb-20" src="./../../assets/img/menu-icons/05.svg" alt="01">
-                        <a class="menu-list__link" href="#">Рога</a>
-                    </li>
-                    <li class="menu-list__item">
-                        <img class="mb-20" src="./../../assets/img/menu-icons/06.svg" alt="01">
-                        <a class="menu-list__link" href="#">Масла</a>
-                    </li>
+                        <li class="menu-list__item">
+                            <div class="menu-box">
+                                <div class="menu-box__img">
+                                    <img class="img-mb" src="./../../assets/img/menu-icons/01.svg" alt="01">
+                                </div>
+                                <div class="menu-box__text">
+                                <a class="menu-list__link" href="#">Наборы</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list__item">    
+                            <div class="menu-box">
+                                <div class="menu-box__img">
+                                    <img class="img-mb" src="./../../assets/img/menu-icons/02.svg" alt="01">
+                                </div>
+                                <div class="menu-box__text">
+                                    <a class="menu-list__link" href="#">Лакомства</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list__item">
+                            <div class="menu-box">
+                                <div class="menu-box__img">
+                                    <img class="img-mb" src="./../../assets/img/menu-icons/03.svg" alt="01">
+                                </div>
+                                <div class="menu-box__text">
+                                    <a class="menu-list__link" href="#">Аксессуары</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list__item">
+                            <div class="menu-box">
+                                <div class="menu-box__img">
+                                    <img class="img-mb" src="./../../assets/img/menu-icons/04.svg" alt="01">
+                                </div>
+                                <div class="menu-box__text">
+                                    <a class="menu-list__link" href="#">Игрушки</a>
+                                </div>
+                            </div>
+                        </li> 
+                        <li class="menu-list__item">
+                            <div class="menu-box">
+                                <div class="menu-box__img">
+                                    <img class="img-mb" src="./../../assets/img/menu-icons/05.svg" alt="01">
+                                </div>
+                                <div class="menu-box__text">
+                                    <a class="menu-list__link" href="#">Рога</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list__item">
+                            <div class="menu-box">
+                                <div class="menu-box__img">
+                                    <img class="img-mb" src="./../../assets/img/menu-icons/06.svg" alt="01">
+                                </div>
+                                <div class="menu-box__text">
+                                    <a class="menu-list__link" href="#">Масла</a>
+                                </div>
+                            </div>
+                        </li> 
                 </ul>
             </div>
+            <!-- Menu End -->
         </div>
     </div>
 </header>
+<main class="main">
+    <div class="container">
+        <!-- Banner -->
+        <div class="banner">
+            <img class="banner__img" src="./../../assets/img/banner-img/Banner-1.png" alt="">
+        </div>
+        <div class="banner-mobile">
+            <img class="banner__mobile-img" src="./../../assets/img/banner-mobile/Banner-1.png" alt="">
+        </div>
+        <!-- Banner End -->
+
+        <section class="product">
+            <div class="product__top">
+                <div class="product__top-heading">
+                    <h2 class="heading-font">Хиты</h2>
+                </div>
+                <div class="product__top-option">
+                    <button class="option-btn">
+                        <i class="option-btn__left"></i>
+                    </button>
+                    <button class="option-btn">
+                        <i class="option-btn__right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="product__list">
+                <div class="card">
+                    <div class="card__img">
+                        <img src="./../../assets/img/product-img/01.png" alt="">
+                        <div class="card__img-symbol">
+                            <span class="card__img-badge badge-font">-30%</span>
+                            <span class="card__img-favorite"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="card__description">
+
+                    </div>
+                    <div class="card__btn">
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="./../../assets/img/product-img/02.png" alt="">
+                        <div class="card__img-symbol">
+                            <span class="card__img-badge bg-white badge-font">-30%</span>
+                            <span class="card__img-favorite"></span>
+                        </div>
+                    </div>
+                    <div class="card__description">
+
+                    </div>
+                    <div class="card__btn">
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="./../../assets/img/product-img/03.png" alt="">
+                        <div class="card__img-symbol">
+                            <span class="card__img-badge badge-font">-10%</span>
+                            <span class="card__img-favorite"></span>
+                        </div>
+                    </div>
+                    <div class="card__description">
+
+                    </div>
+                    <div class="card__btn">
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="./../../assets/img/product-img/04.png" alt="">
+                        <div class="card__img-symbol">
+                            <span class="card__img-badge bg-blue badge-font">Новинка</span>
+                            <span class="card__img-favorite"></span>
+                        </div>
+                    </div>
+                    <div class="card__description">
+
+                    </div>
+                    <div class="card__btn">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>

@@ -2,16 +2,26 @@
 
 
 
-.mb-20 {
+.title-mb {
     margin-bottom: 20px;
 }
 
-.mb-35 {
+.subtitle-mb {
     margin-bottom: 35px;
 }
 
-.mb-20 {
-    margin-bottom: 20px;
+.img-mb {
+    margin-bottom: 15px;
+}
+
+
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.bg-white {
+   background-color: $white;
 }
 
 
@@ -61,13 +71,43 @@
     color: $black;
 }
 
+.heading-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $extra-bold;
+    font-size: 28px;
+    line-height: 32px;
+    color: $black;
+}
+
+.badge-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $extra-bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: $white;
+}
 
 
 @media (max-width: 375px) {
     .title {
         font-size: 38px;
+        line-height: 40px;
+        &-mb {
+            margin-bottom: 8px;
+        }
     }
     .subtitle {
         font-size: 19px;
+        line-height: 24px;
+        &-mb {
+            margin-bottom: 32px;
+        }
+    }
+
+
+    .menu-list__link {
+        font-size: 14px;
     }
 }
