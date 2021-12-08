@@ -63,6 +63,7 @@
         &__inner {
             max-height: 72px;
             padding: 0;
+            flex-flow: row nowrap;
         }
     }
 
@@ -121,9 +122,90 @@
     
     .banner-mobile {
         display: block;
+        margin: 20px 0;
         &__img {
             width: 100%;
         }
     }
 
+    .product {
+        &__top {
+            &-option {
+                display: none;
+            }
+        }
+        &__list {
+            overflow-x: auto;
+        }
+        &-mb {
+            margin-bottom: 15px;
+        }
+        &__reclam-list {
+            overflow-x: auto;
+        }
+        &__news-list {
+            overflow-x: auto;
+        }
+        &__review-list {
+            overflow-x: auto;
+        }
+    }
+
+    .card {
+        margin: 0 6px;
+        &__img {
+            margin-bottom: 0px;
+        }
+        min-width: 187px;
+        min-height: 298px;
+        &__description {
+            margin-bottom: 19px;
+            min-width: 200px;
+            &-price {
+                margin-bottom: 2px;
+            }
+        }
+
+        &-reclam {
+            min-width: 236px;
+            min-height: 300px;
+            margin-right: 16px;
+            overflow-y: hidden;
+            &__img {
+                padding: 0;
+            }
+        }
+
+        &-news {
+            min-width: 236px;
+            min-height: 196px;
+            margin-right: 16px;
+            margin-top: 14px;
+            padding: 0;
+            
+        }
+
+        &-review {
+            min-width: 236px;
+            min-height: 498px;
+            &__bottom {
+                margin: 24px 0;
+            }
+        }
+    }
+
+
+    .top {
+        &-img img {
+            width: 80px;
+            height: 80px;
+            margin: 15px 0;
+        }
+    }
+
+    .separator {
+        margin: 4px 0;
+    }
+
 }
+

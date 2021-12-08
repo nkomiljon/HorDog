@@ -15,7 +15,6 @@
 }
 
 
-
 .bg-blue {
     background-color: $blue;
 }
@@ -23,6 +22,27 @@
 .bg-white {
    background-color: $white;
 }
+.bg-transparent {
+    background-color: transparent!important;
+}
+
+.text-red {
+    color: $red!important;
+}
+
+.text-white {
+    color: $white!important;
+}
+
+.text-transparent {
+    color: transparent!important;
+}
+
+.bg-none {
+    display: none!important;
+}
+
+
 
 
 .title {
@@ -89,6 +109,135 @@
     color: $white;
 }
 
+.price-old {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $semi-bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: line-through;
+}
+
+.price {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $extra-bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: $black;
+}
+
+.quantity {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 12px;
+    line-height: 14px;
+    color: $grey;
+}
+
+.description {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $semi-bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: $black;
+}
+
+
+.button-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: $black;
+}
+
+
+.reclam-text {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $extra-bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: $black;
+}
+
+.news-date {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 12px;
+    line-height: 14px;
+    color: $grey;
+}
+.news-text {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: $black;
+}
+.top-description__text {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+
+}
+
+.review-btn-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: $black;
+}
+
+.user-name-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $extra-bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: $black;
+
+}
+
+.review-date-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 14px;
+    line-height: 20px;
+    color: $grey;
+}
+
+.nick-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 12px;
+    line-height: 14px;
+    color: $grey;
+}
+
+.review-text {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 13px;
+    line-height: 20px;
+    color: $black;
+}
+
+
 
 @media (max-width: 375px) {
     .title {
@@ -109,5 +258,15 @@
 
     .menu-list__link {
         font-size: 14px;
+    }
+
+
+    .heading-font {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .top-description__text {
+        font-size: 16px;
     }
 }
