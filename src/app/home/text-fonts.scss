@@ -237,9 +237,90 @@
     color: $black;
 }
 
+.footer-title {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $bold-black;
+    font-size: 40px;
+    line-height: 46px;
+    color: $black;
 
+}
 
-@media (max-width: 375px) {
+.footer-subtitle {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $light;
+    font-size: 20px;
+    line-height: 24px;
+    color: $black;
+}
+
+.form-text-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: $grey;
+}
+
+.form-btn-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: $black;
+}
+
+.logo-text {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 9px;
+    line-height: 12px;
+    color: $black;
+}
+
+.list-link {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $semi-bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: $black;
+    opacity: 0.6;
+}
+
+.social {
+    &-title {
+        font-family: $nunito;
+        font-style: normal;
+        font-weight: $bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: $black;
+    }
+    &-tel {
+        font-family: $nunito;
+        font-style: normal;
+        font-weight: $extra-bold;
+        font-size: 20px;
+        line-height: 24px;
+        color: $black;
+    }
+    &-email {
+        font-family: $nunito;
+        font-style: normal;
+        font-weight: $regular;
+        font-size: 14px;
+        line-height: 20px;
+        color: $black;
+    }
+}
+
+@media (max-width: 425px) {
     .title {
         font-size: 38px;
         line-height: 40px;
@@ -268,5 +349,27 @@
 
     .top-description__text {
         font-size: 16px;
+        height: 40px;
+        text-overflow: ellipsis;
+        overflow: hidden
+    }
+
+    .footer-title {
+        font-size: 31px;
+        line-height: 36px;
+    }
+    .footer-subtitle {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .mobile-menu__link {
+        font-family: $nunito;
+        font-style: normal;
+        font-weight: $semi-bold;
+        font-size: 9px;
+        line-height: 12px;
+        text-align: center;
+        color: $black;
     }
 }

@@ -20,7 +20,9 @@ a {
 
 .mobile-logo,
 .burger,
-.banner-mobile {
+.banner-mobile,
+.mobile-social,
+.mobile-menu {
     display: none;
 }
 
@@ -474,3 +476,116 @@ a {
     text-decoration: revert;
     color: $nick-link-color;
 }
+
+
+.footer {
+    background-image: url('./../../assets/img/Background-footer.png');
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+
+    &__inner {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    &-top {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        &-description {
+            margin-top: 30px;
+            max-width: 325px;
+            width: 100%;
+        }
+        &-description h1 {
+            margin-bottom: 10px;
+        }
+        &-description p {
+            margin-bottom: 24px;
+        }
+
+        &__img {
+            width: 67%;
+            padding: 146px 40px 0 170px
+        }
+        &__img img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    
+
+    &-bottom {
+        padding: 5px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &__logo {
+            width: 18%;
+        }
+        &__logo img {
+            margin-bottom: 24px;
+        }
+        &__first {
+            width: 20%;
+        }
+        &__first ul {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items:center;
+        }
+        &__second {
+            width: 20%;
+        }
+        &__second ul {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        &__social {
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 0 10px;
+        }
+    }
+}
+
+
+.form {
+    &-option {
+        margin-bottom: 20px;
+    }
+    &-text {
+        height: 48px;
+        max-width: 318px;
+        width: 100%;
+        padding: 7px 16px;
+        background: $white;
+        border-radius: 12px;
+        margin: 4px 0;
+    }
+    &-btn {
+        width: 130px;
+        height: 48px;
+        padding: 14px 24px;
+        background: $white;
+        border-radius: 87px;
+    }
+}
+
+.social-icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
